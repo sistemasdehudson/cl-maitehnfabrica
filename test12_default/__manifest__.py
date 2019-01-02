@@ -36,7 +36,7 @@
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-test11', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'cl-test12', 'branch': '12.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
         {'usr': 'jobiols', 'repo': 'backend-theme', 'branch': '12.0'},
         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '12.0'},
