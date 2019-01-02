@@ -20,10 +20,10 @@
 ##############################################################################
 
 {
-    'name': 'test11',
-    'version': '11.0.0.0.0',
+    'name': 'test12',
+    'version': '12.0.0.0.0',
     'category': 'Tools',
-    'summary': "Test for v11",
+    'summary': "Test for v12",
     'author': "jeo Software",
     'website': 'http://github.com/jobiols/module-repo',
     'license': 'AGPL-3',
@@ -36,27 +36,26 @@
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-test11', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'backend-theme', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'cl-test11', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'backend-theme', 'branch': '12.0'},
+        {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '12.0'},
         {'usr': 'ingadhoc', 'repo': 'account-financial-tools',
-         'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'argentina-reporting', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
-        {'usr': 'OCA', 'repo': 'partner-contact', 'branch': '11.0'},
-        {'usr': 'OCA', 'repo': 'web', 'branch': '11.0'},
-        {'usr': 'OCA', 'repo': 'server-tools', 'branch': '11.0'},
+         'branch': '12.0'},
+        {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '12.0'},
+        {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '12.0'},
+        {'usr': 'ingadhoc', 'repo': 'argentina-reporting', 'branch': '12.0'},
+        {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '12.0'},
+        {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '12.0'},
+        {'usr': 'OCA', 'repo': 'partner-contact', 'branch': '12.0'},
+        {'usr': 'OCA', 'repo': 'web', 'branch': '12.0'},
+        {'usr': 'OCA', 'repo': 'server-tools', 'branch': '12.0'},
 
     ],
     'docker': [
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '11.0'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '12.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
-        {'name': 'aeroo', 'usr': 'adhoc', 'img': 'aeroo-docs'},
     ]
 
 }
