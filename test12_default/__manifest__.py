@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 ##############################################################################
 #
 #    Copyright (C) 2018  jeo Software  (http://www.jeosoft.com.ar)
@@ -43,9 +42,8 @@
 
     ],
     'docker': [
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-ubuntu', 'ver': '12.0'},
-        {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
-        {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '12.0'},
+        {'name': 'postgres', 'usr': 'postgres', 'ver': '11.1-alpine'},
     ]
 
 }
