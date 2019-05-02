@@ -27,6 +27,8 @@
     'website': 'http://github.com/jobiols/module-repo',
     'license': 'AGPL-3',
     'depends': [
+        'sale_management',
+        'purchase',
     ],
     'data': [
     ],
@@ -36,6 +38,8 @@
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-test12', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
+
         #{'usr': 'OCA', 'repo': 'partner-contact', 'branch': '12.0'},
         #{'usr': 'OCA', 'repo': 'web', 'branch': '12.0'},
         #{'usr': 'OCA', 'repo': 'server-tools', 'branch': '12.0'},
@@ -43,7 +47,7 @@
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '12.0'},
-        {'name': 'postgres', 'usr': 'postgres', 'ver': '11.1-alpine'},
+        {'name': 'postgres', 'usr': 'postgres', 'ver': '10.1-alpine'},
     ]
 
 }
