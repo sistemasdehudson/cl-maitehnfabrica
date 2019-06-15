@@ -29,6 +29,7 @@
     'depends': [
         'sale_management',
         'purchase',
+        'mrp'
     ],
     'data': [
     ],
@@ -38,12 +39,26 @@
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-test12', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
 
-        #{'usr': 'OCA', 'repo': 'partner-contact', 'branch': '12.0'},
-        #{'usr': 'OCA', 'repo': 'web', 'branch': '12.0'},
-        #{'usr': 'OCA', 'repo': 'server-tools', 'branch': '12.0'},
-
+        #{'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-odoo-argentina', 'branch': '12.0'},
+        #{'usr': 'jobiols', 'repo': 'adhoc-argentina-sale', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools',
+         'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '12.0'},
+        #{'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting',         'branch': '12.0'},
+        #{'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '12.0'},
+        #{'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '12.0'},
+        #{'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-odoo-support', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-sale', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'oca-partner-contact', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'oca-web', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'oca-server-tools', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'oca-social', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'oca-server-brand', 'branch': '12.0'},
+        {'usr': 'oca', 'repo': 'management-system', 'branch': '12.0'},
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '12.0'},
