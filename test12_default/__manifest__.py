@@ -20,7 +20,7 @@
 
 {
     'name': 'test12',
-    'version': '12.0.0.0.0',
+    'version': '12.0e.0.0.0',
     'category': 'Tools',
     'summary': "Test for v12",
     'author': "jeo Software",
