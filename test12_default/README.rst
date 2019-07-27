@@ -8,50 +8,10 @@
    :target: https://www.gnu.org/licenses/agpl
    :alt: License: AGPL-3
 
-============
-PROJECT NAME
-============
+========
+TEST V12
+========
 
-.. image:: https://travis-ci.org/jobiols/cl-vhing.svg?branch=11.0
-    :target: https://travis-ci.org/jobiols/cl-vhing
-
-.. image:: https://api.codeclimate.com/v1/badges/3a3a1f98794659f59527/maintainability
-   :target: https://codeclimate.com/github/jobiols/cl-vhing/maintainability
-   :alt: Maintainability
-
-
-This module is a blah blah blah
-
-Installation
-============
-
-To install this module, you need to:
-
-#. Just intall it.
-
-Configuration
-=============
-
-To configure this module, you need to:
-
-#. No configuration needed
-
-Bug Tracker
-===========
-
-Bugs are tracked on `GitHub Issues
-<https://github.com/jobiols/[reponame]/issues>`_. In case of trouble, please
-check there if your issue has already been reported. If you spotted it first,
-help us smashing it by providing a detailed and welcomed feedback.
-
-Credits
-=======
-
-Contributors
-------------
-
-Maintainer
-----------
 
 |company_logo|
 

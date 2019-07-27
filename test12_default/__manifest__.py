@@ -20,16 +20,13 @@
 
 {
     'name': 'test12',
-    'version': '12.0e.0.0.0',
+    'version': '12.0.0.0.0',
     'category': 'Tools',
-    'summary': "Test for v12",
+    'summary': "Test for v12 CE",
     'author': "jeo Software",
     'website': 'http://github.com/jobiols/module-repo',
     'license': 'AGPL-3',
     'depends': [
-        'sale_management',
-        'purchase',
-        'mrp'
     ],
     'data': [
     ],
@@ -38,30 +35,10 @@
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-test12', 'branch': '12.0'},
-
-        #{'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-odoo-argentina', 'branch': '12.0'},
-        #{'usr': 'jobiols', 'repo': 'adhoc-argentina-sale', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools',
-         'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '12.0'},
-        #{'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting',         'branch': '12.0'},
-        #{'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '12.0'},
-        #{'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '12.0'},
-        #{'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-odoo-support', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-sale', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'oca-partner-contact', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'oca-web', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'oca-server-tools', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'oca-social', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'oca-server-brand', 'branch': '12.0'},
-        {'usr': 'oca', 'repo': 'management-system', 'branch': '12.0'},
+        {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '12.0'},
     ],
     'docker': [
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-ent', 'ver': '12.0e'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '12.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '10.1-alpine'},
     ]
 
