@@ -36,8 +36,6 @@
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '12.0'},
-
-        {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '12.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
 
         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '12.0'},
