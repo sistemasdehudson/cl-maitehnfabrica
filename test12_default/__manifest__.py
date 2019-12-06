@@ -37,6 +37,7 @@
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '12.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
+        {'usr': 'xalachi', 'repo': 'fecr', 'branch': '12.0', 'ssh': True},
 
         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '12.0'},
         {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '12.0'},
