@@ -37,23 +37,6 @@
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '13.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '13.0'},
-        {'usr': 'xalachi', 'repo': 'fecr', 'branch': '13.0', 'ssh': True},
-
-        {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'account-financial-tools',
-         'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'argentina-reporting',
-         'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'sale', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'odoo-support', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'product', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'stock', 'branch': '13.0'},
-        {'usr': 'ingadhoc', 'repo': 'account-invoicing', 'branch': '13.0'},
 
         {'usr': 'oca', 'repo': 'partner-contact', 'branch': '13.0'},
         {'usr': 'oca', 'repo': 'web', 'branch': '13.0'},
