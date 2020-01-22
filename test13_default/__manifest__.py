@@ -19,7 +19,7 @@
 ##############################################################################
 
 {
-    'name': 'test13e',
+    'name': 'test13',
     'version': '13.0.0.0.0',
     'category': 'Tools',
     'summary': "Test for v13 CE",
@@ -31,12 +31,12 @@
     'data': [
     ],
     'installable': True,
-    'application': False,
 
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '13.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '13.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-tatakua', 'branch': '13.0.libro-de-iva'},
 
         {'usr': 'oca', 'repo': 'partner-contact', 'branch': '13.0'},
         {'usr': 'oca', 'repo': 'web', 'branch': '13.0'},
