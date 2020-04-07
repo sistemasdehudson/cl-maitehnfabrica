@@ -54,8 +54,6 @@
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '13.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '10.1-alpine'},
-        {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
-        {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
     ]
 
 }
