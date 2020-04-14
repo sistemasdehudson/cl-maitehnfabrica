@@ -35,7 +35,7 @@
     'env-ver': '2',
 
     # if Enterprise it installs in a different directory than community
-    'license': 'CE',
+    'odoo-license': 'CE',
 
     'port': '8069',
 
