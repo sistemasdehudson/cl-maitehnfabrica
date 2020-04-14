@@ -26,34 +26,28 @@
     'author': "jeo Software",
     'website': 'http://github.com/jobiols/module-repo',
     'license': 'AGPL-3',
-    'depends': [
-    ],
-    'data': [
-    ],
+    'depends': [    ],
+    'data': [    ],
+
     'installable': True,
 
+    # manifest version, if omitted it is backward compatible
+    'env-ver': '2',
+
+    # if Enterprise it installs in a different directory than community
+    'license': 'CE',
+
     'port': '8069',
-    'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-test', 'branch': '13.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '13.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-paraguay', 'branch': '13.0'},
 
-        {'usr': 'oca', 'repo': 'partner-contact', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'web', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'server-tools', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'social', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'server-ux', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'server-brand', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'manufacture', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'manufacture-reporting', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'management-system', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'sale-workflow', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'stock-logistics-warehouse', 'branch': '13.0'},
-        {'usr': 'oca', 'repo': 'stock-logistics-workflow', 'branch': '13.0'},
+    'git-repos': [
+        'https://github.com/jobiols/cl-test.git -b 13.0',
+        'https://github.com/ingadhoc/account-payment.git',
+        'https://github.com/ingadhoc/account-financial-tools.git',
     ],
-    'docker': [
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '13.0'},
-        {'name': 'postgres', 'usr': 'postgres', 'ver': '10.1-alpine'},
+    # list of images to use in the form 'name image-url'
+    'docker-images': [
+        'odoo jobiols/odoo-ent:13.0e',
+        'postgres postgres:10.1-alpine',
+        'nginx nginx'
     ]
-
 }
