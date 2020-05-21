@@ -43,6 +43,7 @@
         'https://github.com/jobiols/cl-test.git -b 13.0',
         'https://github.com/ingadhoc/account-payment.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
+        'https://github.com/it-projects-llc/saas-addons.git'
     ],
     # list of images to use in the form 'name image-url'
     'docker-images': [
