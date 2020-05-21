@@ -47,6 +47,8 @@
         'https://github.com/oca/queue.git',
         'https://github.com/oca/web.git',
 
+
+
     ],
     # list of images to use in the form 'name image-url'
     'docker-images': [
