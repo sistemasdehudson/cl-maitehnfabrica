@@ -41,8 +41,6 @@
 
     'git-repos': [
         'https://github.com/jobiols/cl-test.git',
-        'https://github.com/ingadhoc/account-payment.git',
-        'https://github.com/ingadhoc/account-financial-tools.git',
         'git@github.com:jobiols/saas.git'
 
     ],
