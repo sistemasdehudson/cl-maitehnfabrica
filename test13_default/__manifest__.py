@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2018  jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2020  jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -41,7 +41,6 @@
 
     'git-repos': [
         'https://github.com/jobiols/cl-test.git',
-        'git@github.com:jobiols/saas.git'
 
     ],
     # list of images to use in the form 'name image-url'
