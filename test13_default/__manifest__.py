@@ -46,7 +46,11 @@
 
         # ctmil para localizacion
         'https://github.com/jobiols/ctmil-odoo-argentina.git',
+        'https://github.com/oca/reporting-engine.git',
+        'https://github.com/ingadhoc/stock.git',
+        'https://github.com/OCA/stock-logistics-workflow.git',
     ],
+
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-jeo:13.0',
