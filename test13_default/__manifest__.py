@@ -44,8 +44,8 @@
 
         'https://github.com/jobiols/odoo-addons.git',
 
-        # Adhoc para localizacion
-        'https://github.com/ingadhoc/odoo-argentina.git',
+        # ctmil para localizacion
+        'https://github.com/ctmil/odoo-argentina.git',
     ],
     # list of images to use in the form 'name image-url'
     'docker-images': [
