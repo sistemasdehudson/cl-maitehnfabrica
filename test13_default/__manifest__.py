@@ -26,9 +26,7 @@
     'author': "jeo Software",
     'website': 'http://github.com/jobiols/module-repo',
     'license': 'AGPL-3',
-    'depends': [    ],
-    'data': [    ],
-
+    'depends': [ ],
     'installable': True,
 
     # manifest version, if omitted it is backward compatible
@@ -44,11 +42,11 @@
 
         'https://github.com/jobiols/odoo-addons.git',
 
-        # ctmil para localizacion
-        'https://github.com/jobiols/ctmil-odoo-argentina.git',
-        'https://github.com/oca/reporting-engine.git',
-        'https://github.com/ingadhoc/stock.git',
-        'https://github.com/OCA/stock-logistics-workflow.git',
+        # para localizacion argentina
+        'https://github.com/ingadhoc/odoo-argentina-ce.git',
+
+#        'https://github.com/oca/reporting-engine.git',
+#        'https://github.com/OCA/stock-logistics-workflow.git',
     ],
 
     # list of images to use in the form 'name image-url'
