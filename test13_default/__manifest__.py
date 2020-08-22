@@ -39,20 +39,21 @@
 
     'git-repos': [
         'https://github.com/jobiols/cl-test.git',
-
         'https://github.com/jobiols/odoo-addons.git',
 
         # para localizacion argentina
+        'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/odoo-argentina-ce.git',
-
-#        'https://github.com/oca/reporting-engine.git',
-#        'https://github.com/OCA/stock-logistics-workflow.git',
+        'https://github.com/ingadhoc/aeroo_reports.git',
+        'https://github.com/ingadhoc/account-payment.git',
+        'https://github.com/ingadhoc/account-financial-tools.git',
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-jeo:13.0',
         'postgres postgres:10.1-alpine',
-        'nginx nginx'
+        'nginx nginx',
+        'aeroo adhoc/aeroo-docs'
     ]
 }
