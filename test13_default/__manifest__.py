@@ -42,6 +42,8 @@
         'https://github.com/jobiols/odoo-addons.git',
         'git@github.com:jobiols/odoo-jeo-ce.git',
         'git@github.com:jobiols/odoo-private-addons.git',
+        'git@github.com:jobiols/odoo-uml.git',
+        'git@github.com:jobiols/odoo-etl.git',
 
         # para localizacion argentina
         'https://github.com/ingadhoc/odoo-argentina.git',
