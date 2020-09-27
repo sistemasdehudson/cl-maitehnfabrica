@@ -48,7 +48,6 @@
         # para localizacion argentina
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/odoo-argentina-ce.git',
-        'https://github.com/ingadhoc/aeroo_reports.git',
         'https://github.com/ingadhoc/account-payment.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
     ],
