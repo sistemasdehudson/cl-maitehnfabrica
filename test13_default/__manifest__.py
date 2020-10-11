@@ -24,9 +24,11 @@
     'category': 'Tools',
     'summary': "Test for v13 CE",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/module-repo',
+    'website': 'http://github.com/jobiols/cl-test',
     'license': 'AGPL-3',
-    'depends': [ ],
+    'depends': [
+        'standard_depends_ce'
+     ],
     'installable': True,
 
     # manifest version, if omitted it is backward compatible
@@ -39,17 +41,21 @@
 
     'git-repos': [
         'git@github.com:jobiols/cl-test.git',
-        'https://github.com/jobiols/odoo-addons.git',
         'git@github.com:jobiols/odoo-jeo-ce.git',
         'git@github.com:jobiols/odoo-private-addons.git',
-        'git@github.com:jobiols/odoo-uml.git',
-        'git@github.com:jobiols/odoo-etl.git',
 
         # para localizacion argentina
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/odoo-argentina-ce.git',
         'https://github.com/ingadhoc/account-payment.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
+
+        # Pruebas del test
+        'git@github.com:jobiols/odoo-uml.git',
+        'git@github.com:jobiols/odoo-etl.git',
+        'git@github.com:oca/project.git',
+        'https://github.com/ingadhoc/miscellaneous.git',
+
     ],
 
     # list of images to use in the form 'name image-url'
