@@ -44,11 +44,17 @@
         'git@github.com:jobiols/odoo-jeo-ce.git',
         'git@github.com:jobiols/odoo-private-addons.git',
 
-        # para localizacion argentina
+        # Adhoc para localizacion
         'https://github.com/ingadhoc/odoo-argentina.git',
         'https://github.com/ingadhoc/odoo-argentina-ce.git',
-        'https://github.com/ingadhoc/account-payment.git',
         'https://github.com/ingadhoc/account-financial-tools.git',
+        'https://github.com/ingadhoc/aeroo_reports.git',
+        'https://github.com/ingadhoc/miscellaneous',
+        'https://github.com/ingadhoc/sale',
+        'https://github.com/ingadhoc/product',
+        'https://github.com/ingadhoc/argentina-sale',
+        'https://github.com/ingadhoc/account-payment',
+        'https://github.com/ingadhoc/stock',
 
         # Pruebas del test
         'git@github.com:jobiols/odoo-uml.git',
