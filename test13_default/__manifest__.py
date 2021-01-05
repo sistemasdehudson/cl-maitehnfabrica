@@ -55,12 +55,10 @@
         'https://github.com/ingadhoc/argentina-sale',
         'https://github.com/ingadhoc/account-payment',
         'https://github.com/ingadhoc/stock',
+        'https://github.com/ingadhoc/miscellaneous.git',
 
-        # Pruebas del test
-        #'git@github.com:jobiols/odoo-uml.git',
-        #'git@github.com:jobiols/odoo-etl.git',
-        #'git@github.com:oca/project.git',
-        #'https://github.com/ingadhoc/miscellaneous.git',
+        'https://github.com/OCA/commission.git',
+        'git@github.com:oca/project.git',
     ],
 
     # list of images to use in the form 'name image-url'
