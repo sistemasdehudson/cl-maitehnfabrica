@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2020  jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2021  jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -20,7 +20,7 @@
 
 {
     'name': 'test13',
-    'version': '13.0.0.0.0',
+    'version': '13.0.1.0.0',
     'category': 'Tools',
     'summary': "Test for v13 CE",
     'author': "jeo Software",
@@ -57,17 +57,15 @@
         'https://github.com/ingadhoc/stock',
 
         # Pruebas del test
-        'git@github.com:jobiols/odoo-uml.git',
-        'git@github.com:jobiols/odoo-etl.git',
-        'git@github.com:oca/project.git',
-        'https://github.com/ingadhoc/miscellaneous.git',
-
+        #'git@github.com:jobiols/odoo-uml.git',
+        #'git@github.com:jobiols/odoo-etl.git',
+        #'git@github.com:oca/project.git',
+        #'https://github.com/ingadhoc/miscellaneous.git',
     ],
 
     # list of images to use in the form 'name image-url'
     'docker-images': [
         'odoo jobiols/odoo-jeo:13.0',
         'postgres postgres:10.1-alpine',
-        'nginx nginx',
     ]
 }
