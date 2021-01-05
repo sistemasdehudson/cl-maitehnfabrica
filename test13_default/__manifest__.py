@@ -56,7 +56,7 @@
         'https://github.com/ingadhoc/account-payment',
         'https://github.com/ingadhoc/stock',
         'https://github.com/ingadhoc/miscellaneous.git',
-
+        'https://github.com/odoomates/odooapps.git',
         'https://github.com/OCA/commission.git',
         'git@github.com:oca/project.git',
     ],
