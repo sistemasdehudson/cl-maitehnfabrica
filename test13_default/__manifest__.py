@@ -49,6 +49,7 @@
         'git@github.com:jobiols/odoo-jeo-ce.git',
 
         # OCA
+        'https://github.com/OCA/l10n-spain.git oca-l10n-spain'
         'https://github.com/OCA/server-tools oca-server-tools',
         'https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow',
         'https://github.com/OCA/sale-workflow oca-sale-workflow',
