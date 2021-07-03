@@ -47,6 +47,9 @@
         'git@github.com:jobiols/odoo-custom',
         'git@github.com:jobiols/odoo-private-addons.git',
         'git@github.com:jobiols/odoo-jeo-ce.git',
+        
+        'https://github.com/ctmil/odoo-argentina.git ctmil/ctmil-odoo-argentina',
+        'https://github.com/ctmil/account-financial-tools ctmil/ctmil-account-financial-tools',
 
         # OCA
         'https://github.com/OCA/l10n-spain.git oca-l10n-spain',
