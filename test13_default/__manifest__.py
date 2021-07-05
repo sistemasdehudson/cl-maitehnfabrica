@@ -135,6 +135,7 @@
         'https://github.com/OCA/fleet oca-fleet',
         'https://github.com/OCA/project-reporting oca-project-reporting',
         'https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting',
+        'https://github.com/OCA/l10n-spain oca-l10n-spain',
 
         # ingadhoc
         'https://github.com/ingadhoc/product ingadhoc-product',
