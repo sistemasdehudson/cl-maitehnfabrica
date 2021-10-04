@@ -165,6 +165,9 @@
 
         # Odoomates
         'https://github.com/odoomates/odooapps odoomates-odooapps',
+		
+		# OpenWorx			# ===========================================================================
+		'https://github.com/Openworx/backend_theme ow-backend_theme',
     ],
 
     # list of images to use in the form 'name image-url'
