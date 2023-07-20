@@ -19,12 +19,12 @@
 ##############################################################################
 
 {
-    'name': 'test15',
+    'name': 'maitehnfabrica',
     'version': '15.0.1.0.0',
     'category': 'Tools',
-    'summary': "Test for v15 CE",
+    'summary': "maitehnfabrica",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-test',
+    'website': 'https://github.com/sistemasdehudson/cl-maitehnfabrica',
     'license': 'AGPL-3',
     'depends': [
         'standard_depends_ce'
@@ -43,8 +43,9 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-test.git',
+        'https://github.com/sistemasdehudson/cl-maitehnfabrica.git',
 #        'git@github.com:jobiols/odoo-jeo-ce.git',
+        
     ],
 
     # list of images to use in the form 'name image-url'
