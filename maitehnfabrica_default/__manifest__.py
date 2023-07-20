@@ -45,7 +45,32 @@
     'git-repos': [
         'https://github.com/sistemasdehudson/cl-maitehnfabrica.git',
 #        'git@github.com:jobiols/odoo-jeo-ce.git',
-        
+        'https://github.com/regaby/odoo-custom.git -b 15.0-adhoc',
+        ## localización
+        'https://github.com/ingadhoc/odoo-argentina.git -b 15.0',
+        'https://github.com/ingadhoc/odoo-argentina-ce.git -b 15.0',
+        'https://github.com/ingadhoc/argentina-sale.git -b 15.0',
+        'https://github.com/ingadhoc/account-payment.git -b 15.0',
+        'https://github.com/ingadhoc/account-invoicing.git -b 15.0',
+        'https://github.com/ingadhoc/account-financial-tools.git -b 15.0',
+        'https://github.com/ingadhoc/sale.git -b 15.0',
+        'https://github.com/ingadhoc/stock.git -b 15.0',
+        'https://github.com/ingadhoc/aeroo_reports.git -b 15.0',
+        'https://github.com/ingadhoc/website.git -b 15.0',
+        'https://github.com/OCA/account-financial-reporting.git -b 15.0',
+        'https://github.com/OCA/reporting-engine.git -b 15.0',
+        'https://github.com/OCA/server-ux.git -b 15.0',
+        'https://github.com/OCA/mis-builder.git -b 15.0',
+        'https://github.com/OCA/sale-workflow.git -b 15.0',
+        'https://github.com/OCA/web.git -b 15.0',
+        ##
+        #'https://github.com/OCA/contract.git -b 15.0',
+        'https://github.com/odoomates/odooapps.git -b 15.0',
+        'https://github.com/OCA/manufacture.git -b 15.0',
+        'https://github.com/OCA/manufacture-reporting.git -b 15.0',
+        #'https://github.com/OCA/helpdesk -b 15.0',
+        #'https://github.com/OCA/pos.git -b 15.0',
+        'https://github.com/OCA/report-print-send.git -b 15.0',
     ],
 
     # list of images to use in the form 'name image-url'
