@@ -74,7 +74,6 @@
         ##barcode
         'https://github.com/OCA/stock-logistics-barcode.git -b 15.0',
         'https://github.com/OCA/stock-logistics-warehouse.git -b 15.0',
-        'https://github.com/OCA/stock-logistics-interfaces.git -b 15.0',
         'https://github.com/OCA/stock-logistics-workflow.git -b 15.0',
         'https://github.com/OCA/stock-logistics-orderpoint.git -b 15.0',
         'https://github.com/OCA/stock-logistics-reporting.git -b 15.0',
