@@ -71,6 +71,14 @@
         #'https://github.com/OCA/helpdesk -b 15.0',
         #'https://github.com/OCA/pos.git -b 15.0',
         'https://github.com/OCA/report-print-send.git -b 15.0',
+        ##barcode
+        'https://github.com/OCA/stock-logistics-barcode.git -b 15.0',
+        'https://github.com/OCA/stock-logistics-warehouse.git -b 15.0',
+        'https://github.com/OCA/stock-logistics-interfaces.git -b 15.0',
+        'https://github.com/OCA/stock-logistics-workflow.git -b 15.0',
+        'https://github.com/OCA/stock-logistics-orderpoint.git -b 15.0',
+        'https://github.com/OCA/stock-logistics-reporting.git -b 15.0',
+        'https://github.com/OCA/stock-logistics-transport.git -b 15.0',
     ],
 
     # list of images to use in the form 'name image-url'
