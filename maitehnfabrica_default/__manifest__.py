@@ -78,7 +78,7 @@
         'https://github.com/OCA/stock-logistics-reporting.git -b 15.0',
         'https://github.com/OCA/stock-logistics-transport.git -b 15.0',
         ##alitux barcode
-        'https://gitlab.com/alitux/plu_ean13.git -b 15.0',
+        'https://gitlab.com/alitux/plu_ean13.git alitux/plu_ean13 -b 15.0',
     ],
 
     # list of images to use in the form 'name image-url'
