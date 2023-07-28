@@ -80,7 +80,7 @@
         ##alitux barcode
         'https://gitlab.com/alitux/plu_ean13.git alitux/plu_ean13 -b 15.0',
         'https://github.com/Yenthe666/auto_backup.git yenthe666/auto_backup -b 15.0',
-        'https://github.com/EmAMaz/module-odoo.git -b 15.0',
+        ##'https://github.com/EmAMaz/module-odoo.git -b 15.0',
     ],
 
     # list of images to use in the form 'name image-url'
